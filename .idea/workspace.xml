@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c384df3b-9c7e-4a1c-b295-e275b9cf7422" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/3.类.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/3.类.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c384df3b-9c7e-4a1c-b295-e275b9cf7422" name="Default Changelist" comment="class继承与访问控制符">
+      <change beforePath="$PROJECT_DIR$/js/3.类.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/3.类.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/3.类.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/3.类.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +52,16 @@
       <workItem from="1607443882604" duration="142000" />
       <workItem from="1607444072060" duration="146000" />
       <workItem from="1607477062233" duration="3490000" />
-      <workItem from="1607493654767" duration="1526000" />
+      <workItem from="1607493654767" duration="1853000" />
     </task>
+    <task id="LOCAL-00001" summary="class继承与访问控制符">
+      <created>1607495253515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607495253515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +77,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="class继承与访问控制符" />
+    <option name="LAST_COMMIT_MESSAGE" value="class继承与访问控制符" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

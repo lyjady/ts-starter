@@ -1,7 +1,6 @@
 class Person {
     info() {
-        // 成员方法只能使用成员变量
-        console.log(`${this.name} - ${this.age}`);
+        console.log(`${this.name} - ${this.age} - ${Person.country} - ${Person.planet}`);
     }
     static staticInfo() {
         // 静态方法只能使用静态变量

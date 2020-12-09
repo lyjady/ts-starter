@@ -8,8 +8,7 @@ class Person {
   static planet: string = 'Earth'
 
   info(): void {
-    // 成员方法只能使用成员变量
-    console.log(`${this.name} - ${this.age}`)
+    console.log(`${this.name} - ${this.age} - ${Person.country} - ${Person.planet}`)
   }
 
   static staticInfo(): void {
