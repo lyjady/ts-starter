@@ -59,3 +59,20 @@ class Boy extends Man {
 const boy = new Boy();
 boy.height = 140;
 boy.access();
+// 抽象类(和Java的一致)
+class Animal {
+}
+class Dog extends Animal {
+    work() {
+        console.log('看门');
+    }
+}
+class Cat extends Animal {
+    work() {
+        console.log('抓老鼠');
+    }
+}
+const dog = new Dog();
+dog.work();
+const cat = new Cat();
+cat.work();
