@@ -1,3 +1,5 @@
+// 导入别的文件的命名空间, 使用和基本使用一样
+// import {A} from './6.命名空间'
 // 泛型方法
 function method1<T>(value: T): T {
   return value
@@ -65,3 +67,25 @@ function method2<T>(name: T): T {
 const method22:Inter2<string> = method2
 
 console.log(method22('adsd'));
+
+// const person = new A.Persion()
+// person.name = 'Rose'
+// person.getName()
+
+// 声明多泛型
+function attack<T, K>(name: T, value: K): K {
+  return value
+}
+
+console.log(attack<string, number>('Jack', 12));
+
+// 泛型结合继承
+interface Skill {
+  name: string
+  consume: number
+}
+// 表明使用的泛型必须是Skill接口的子类(不一定是接口也可以是抽象类或者普通的类)
+function release<T extends Skill>(skill: T): void {
+  console.log(skill)
+}
+release({name: '炎爆术', consume: 100})

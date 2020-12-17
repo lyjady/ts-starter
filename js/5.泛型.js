@@ -1,3 +1,5 @@
+// 导入别的文件的命名空间, 使用和基本使用一样
+// import {A} from './6.命名空间'
 // 泛型方法
 function method1(value) {
     return value;
@@ -46,3 +48,16 @@ function method2(name) {
 }
 const method22 = method2;
 console.log(method22('adsd'));
+// const person = new A.Persion()
+// person.name = 'Rose'
+// person.getName()
+// 声明多泛型
+function attack(name, value) {
+    return value;
+}
+console.log(attack('Jack', 12));
+// 表明使用的泛型必须是Skill接口的子类(不一定是接口也可以是抽象类或者普通的类)
+function release(skill) {
+    console.log(skill);
+}
+release({ name: '炎爆术', consume: 100 });

@@ -104,3 +104,47 @@ const dog = new Dog()
 dog.work()
 const cat = new Cat();
 cat.work()
+
+class Zerg {
+  private _name: string
+  private _speed: number
+
+  // 简化getter setter方法
+  set name(name: string) {
+    this._name = name
+  }
+
+  get name() {
+    return this._name
+  }
+
+  set speed(speed: number) {
+    this._speed = speed
+  }
+
+  get speed() {
+    return this._speed
+  }
+}
+
+const zerg = new Zerg()
+zerg.name = 'ZergLink'
+zerg.speed = 34
+console.log(zerg)
+
+class Terran {
+  // 直接将成员变量定义在构造方法中, 等价于直接定义在类中
+  constructor(public _name: string, public _age: number) {
+  }
+
+  set name(name: string) {
+    this._name = name
+  }
+
+  get name() {
+    return this._name
+  }
+}
+
+const terran = new Terran('Jack', 23)
+console.log(terran.name);
